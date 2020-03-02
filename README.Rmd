@@ -1,12 +1,12 @@
 ---
 output:
-  pdf_document:
-    highlight: default
+  md_document:
+    variant: markdown_github
   html_document:
     df_print: paged
   word_document: default
-  md_document:
-    variant: markdown_github
+  pdf_document:
+    highlight: default
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

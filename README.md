@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 1. Introduction:
 ----------------
@@ -70,12 +65,12 @@ Create Stereoscopic 3D image of the given data.
 
 #### **Details**
 
-The dataset is rotatated by a given angle along the Y-axis and a Stereoscopic 3D scatter plot image is creaated.
+The dataset is rotatated by a given angle along the Y-axis and a Stereoscopic 3D scatter plot image is created.
 
 #### **Value**
 
--   Create Stereoscopic 3D plot with 'input data filename prefix' and '\_Stereo.pdf' extention.
--   Interactive 3D plot of the stereo image, which can be zoomed and rotated by draging the mouse.
+-   Create Stereoscopic 3D plot with `input data filename prefix` and `_Stereo.pdf` extention.
+-   Interactive 3D plot of the above image, which can be zoomed and rotated by draging the mouse.
 
 #### **Examples**
 
