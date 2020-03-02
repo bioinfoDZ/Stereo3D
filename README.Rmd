@@ -79,11 +79,11 @@ Create Stereoscopic 3D image of the given data.
 - `connection_file`: A tab seperated file (optional). Where, `first` and `second` column has indices of start and end points (from `data_file`) of a connection respectively.
 
 ####**Details**
-The dataset is rotatated by a given angle along the Y-axis and a Stereoscopic 3D scatter plot image is creaated.
+The dataset is rotatated by a given angle along the Y-axis and a Stereoscopic 3D scatter plot image is created.
 
 ####**Value**
 
-- Create Stereoscopic 3D plot with 'input data filename prefix' and '_Stereo.pdf' extention.
+- Create Stereoscopic 3D plot with `input data filename prefix` and `_Stereo.pdf` extention.
 - Interactive 3D plot of the above image, which can be zoomed and rotated by draging the mouse.
 
 ####**Examples**
