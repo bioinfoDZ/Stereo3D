@@ -1,0 +1,27 @@
+Package: Stereo3D
+Type: Package
+Title: Stereo3D: Using stereo images to enrich 3D visualization 
+Version: 1.1.0
+Author: Vinod Kumar Singh, Yang Liu and Deyou Zheng 
+Maintainer: The package maintainer <vinodsinghjnu@gmail.com>
+Description: Visualization in three-dimensional (3D) space is a standard and critical process for examining the complex structure of high dimensional data. Stereo imaging technology can be adopted to enhance 3D representation of any complex data, especially those consisting mostly of points and lines. We illustrate the simple steps that are involved and strongly encourage others to implement it in their own visualization software. To facilitate its application, we have also created a new software that can convert a regular 3D scatterplot or network figure to a stereo image.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+  R (>= 3.6.2),
+  plyr,
+  tools,
+  rgl,
+  plotrix,
+  scatterplot3d
+RoxygenNote: 7.0.2
+Suggests:
+  devtools,
+  knitr,
+  rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/bioinfoDZ/Stereo3D
+BugReports: https://github.com/bioinfoDZ/Stereo3D/issues
+
+  

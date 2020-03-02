@@ -1,0 +1,2 @@
+library(rmarkdown)
+rmarkdown::render("/Users/vinodsingh/Documents/DZ-VKS/Stereo3D/vignettes/Stereo3D_vignette.Rmd", output_format = latex_document())
