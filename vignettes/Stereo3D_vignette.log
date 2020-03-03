@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.27)  28 FEB 2020 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  3 MAR 2020 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Stereo3D_vignette.tex
 (./Stereo3D_vignette.tex
-LaTeX2e <2020-02-02> patch level 4
+LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-02-25>
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -63,7 +63,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks14
+\@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -79,7 +79,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
+\@emptytoks=\toks16
 \ex@=\dimen135
 ))
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -109,21 +109,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count182
 \dspbrk@lvl=\count183
-\tag@help=\toks16
+\tag@help=\toks17
 \row@=\count184
 \column@=\count185
 \maxfields@=\count186
-\andhelp@=\toks17
+\andhelp@=\toks18
 \eqnshift@=\dimen138
 \alignsep@=\dimen139
 \tagshift@=\dimen140
 \tagwidth@=\dimen141
 \totwidth@=\dimen142
 \lineht@=\dimen143
-\@envbody=\toks18
+\@envbody=\toks19
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -156,8 +156,8 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks20
-\inpenc@posthook=\toks21
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
 )
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -187,7 +187,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks23
 )
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
 ty
@@ -323,7 +323,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen153
 \Gm@layouthoffset=\dimen154
 \Gm@layoutvoffset=\dimen155
-\Gm@dimlist=\toks23
+\Gm@dimlist=\toks24
 )
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
@@ -385,9 +385,9 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count270
-\float@exts=\toks24
+\float@exts=\toks25
 \float@box=\box48
-\@float@everytoks=\toks25
+\@float@everytoks=\toks26
 \@floatcapt=\box49
 )
 (/Users/vinodsingh/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdf
@@ -558,21 +558,21 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <../sample.png, id=58, 1211.52625pt x 636.3775pt>
 File: ../sample.png Graphic file (type png)
 <use ../sample.png>
-Package pdftex.def Info: ../sample.png  used on input line 271.
+Package pdftex.def Info: ../sample.png  used on input line 272.
 (pdftex.def)             Requested size: 469.75735pt x 246.7491pt.
 <../sample_scatter.png, id=60, 1153.30875pt x 593.21625pt>
 File: ../sample_scatter.png Graphic file (type png)
 <use ../sample_scatter.png>
-Package pdftex.def Info: ../sample_scatter.png  used on input line 271.
+Package pdftex.def Info: ../sample_scatter.png  used on input line 272.
 (pdftex.def)             Requested size: 469.76239pt x 241.62712pt.
  [3]
 <../sample_3D_data_Stereo_net.png, id=72, 505.89pt x 505.89pt>
 File: ../sample_3D_data_Stereo_net.png Graphic file (type png)
 <use ../sample_3D_data_Stereo_net.png>
 Package pdftex.def Info: ../sample_3D_data_Stereo_net.png  used on input line 2
-75.
+76.
 (pdftex.def)             Requested size: 469.76265pt x 469.76265pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
 
 [4 <../sample.png> <../sample_scatter.png>] [5pdfTeX warning (ext4): destinatio
 n with the same identifier (name{figure.1}) has been already used, duplicate ig
@@ -580,22 +580,22 @@ nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 \end{document}
+l.280 \end{document}
                      <../sample_3D_data_Stereo_net.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
 
 (./Stereo3D_vignette.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `Stereo3D_vignette.out' has not changed.
 (rerunfilecheck)             Checksum: 82C0E57FD26D2FA7E62E65C22509C97D;666.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 10838 strings out of 482916
- 157553 string characters out of 5958186
- 402104 words of memory out of 5000000
- 25883 multiletter control sequences out of 15000+600000
+ 10837 strings out of 482913
+ 157541 string characters out of 5958135
+ 402333 words of memory out of 5000000
+ 25885 multiletter control sequences out of 15000+600000
  578944 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,13n,34p,284b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -618,7 +618,7 @@ ngh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/vinodsi
 ngh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></Users/vinodsi
 ngh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></Users/vinodsi
 ngh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Stereo3D_vignette.pdf (5 pages, 458495 bytes).
+Output written on Stereo3D_vignette.pdf (5 pages, 458595 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams

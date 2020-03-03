@@ -96,7 +96,7 @@ The dataset is rotatated by a given angle along the Y-axis and a Stereoscopic 3D
 ####**Value**
 
 - Create Stereoscopic 3D plot with `input data filename prefix` and `_Stereo.pdf` extention.
-- Interactive 3D plot of the above image, which can be zoomed and rotated by draging the mouse.
+- Interactive 3D plot for the above image pops up, which can be zoomed and rotated by draging the mouse.
 
 ####**Examples**
 
