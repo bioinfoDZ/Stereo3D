@@ -82,7 +82,7 @@ The dataset is rotatated by a given angle along the Y-axis and a Stereoscopic 3D
 
     > Stereo3D(data_file=sample_data_file, stereo_angle=5, distance=0,
     connection_file=connection_fileName) # dataset stereo image is created
-    and saved in "sample_3D_data_Stereo.pdf"
+    and saved as "sample_3D_data_Stereo.pdf", another interactive 3D image also pops-up.
 
 #### Output
 
