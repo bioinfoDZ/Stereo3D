@@ -9,29 +9,30 @@ Visualization in three-dimensional (3D) space is a standard and critical process
 
 When 2D-image of original data and the slightly rotated data are viewed side by side a 3D illusion is created due to two perspectives of the same object.
 
-The original set of coordinates (*X*, *Y*, *Z*) can be rotated (counter-clockwise direction) by an angle *θ* along Y-axis using the rotation matrix *R*<sub>*y*</sub>(*θ*). The new set of coordinates is obtained as
-
+The original set of coordinates (*X*, *Y*, *Z*) can be rotated (counter-clockwise direction) by an angle *θ* along Y-axis using the rotation matrix *R*<sub>*y*</sub>(*θ*). The new set of coordinates is obtained as <!-- r
 $$
-\\begin{aligned}
-\\begin{bmatrix}
-X^\` \\\\ Y^\` \\\\ Z^\` \\\\ 1
-\\end{bmatrix}  & =
-R\_y (\\theta) \\cdot
-\\begin{bmatrix}
-X \\\\ Y \\\\ Z \\\\ 1
-\\end{bmatrix}  \\\\
+\begin{aligned}
+\begin{bmatrix}
+X^` \\ Y^` \\ Z^` \\ 1
+\end{bmatrix}  & =
+R_y (\theta) \cdot
+\begin{bmatrix}
+X \\ Y \\ Z \\ 1
+\end{bmatrix}  \\
 & =
-\\begin{pmatrix}
-cos \\theta & 0 & -sin \\theta & 0\\\\
-0 & 1 & 0 & 0\\\\
-sin \\theta & 0 & cos \\theta & 0\\\\
+\begin{pmatrix}
+cos \theta & 0 & -sin \theta & 0\\
+0 & 1 & 0 & 0\\
+sin \theta & 0 & cos \theta & 0\\
 0 & 0 & 0 & 1
-\\end{pmatrix} \\cdot
-\\begin{bmatrix}
-X \\\\ Y \\\\ Z \\\\ 1
-\\end{bmatrix}
-\\end{aligned}
-$$
+\end{pmatrix} \cdot
+\begin{bmatrix}
+X \\ Y \\ Z \\ 1
+\end{bmatrix}
+\end{aligned}
+$$  -->
+
+![""](./equation.png)
 
 3. Availability and Installation
 --------------------------------
@@ -54,7 +55,7 @@ Create Stereoscopic 3D image of the given data.
 
 #### **Usage**
 
-`Stereo3D(data_file=sample_data_file, stereo_angle=15, distance=0, connection_file=connection_fileNam)`
+`Stereo3D(data_file=sample_data_file, stereo_angle=5, distance=0, connection_file=connection_fileNam)`
 
 #### **Arguments **
 
