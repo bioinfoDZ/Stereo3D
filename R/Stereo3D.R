@@ -37,7 +37,7 @@ Stereo3D <- function(data_file, stereo_angle=5, distance=0, connection_file=conn
   #data=read.table(file='Mesp1_WT_SubCells.tsv', header = TRUE)
 
   data_name=sub('\\.tsv$', '',  basename(data_file))
-  mat_data=as.matrix(cbind(data[,c(1,2,3)], const=rep(1, nrow(data))))
+  mat_data=as.matrix(cbind(data[,c(2,3,4)], const=rep(1, nrow(data))))
 
   angle=stereo_angle
   gam=(pi/180)*angle  # for 15 degree

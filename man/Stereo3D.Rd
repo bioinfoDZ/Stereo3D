@@ -19,7 +19,7 @@ Stereo3D(data_file, stereo_angle, distance, connection_file )
 Two Stereo3D images
 \enumerate{
  \item  Create Stereoscopic 3D plot with input data filename prefix and \strong{_Stereo.pdf} extention.
- \item  Interactive 3D plot of the above image, which can be zoomed and rotated by draging the mouse.
+ \item  Interactive 3D plot for the above image pops up, which can be zoomed and rotated by draging the mouse.
  }
 }
 \description{
