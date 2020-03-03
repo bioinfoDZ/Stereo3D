@@ -1,12 +1,12 @@
 ---
 output:
-  md_document:
-    variant: markdown_github
+  pdf_document:
+    highlight: default
   html_document:
     df_print: paged
   word_document: default
-  pdf_document:
-    highlight: default
+  md_document:
+    variant: markdown_github
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -28,7 +28,7 @@ Visualization in three-dimensional (3D) space is a standard and critical process
 When 2D-image of original data and the slightly rotated data are viewed side by side a 3D illusion is created due to two perspectives of the same object.
 
 The original set of coordinates $(X, Y, Z)$ can be rotated (counter-clockwise direction) by an angle $\theta$ along Y-axis using the rotation matrix $R_y (\theta)$. The new set of coordinates is obtained as
-
+<!-- r
 $$
 \begin{aligned}
 \begin{bmatrix}
@@ -49,7 +49,8 @@ sin \theta & 0 & cos \theta & 0\\
 X \\ Y \\ Z \\ 1
 \end{bmatrix}
 \end{aligned}
-$$
+$$  --> 
+!["Output: Sterio Image"](./equation.png)
 
 
 
@@ -70,7 +71,7 @@ devtools::install_github("bioinfoDZ/Stereo3D",build_vignettes = FALSE )
 Create Stereoscopic 3D image of the given data.
 
 ####**Usage**
-`Stereo3D(data_file=sample_data_file, stereo_angle=15, distance=0, connection_file=connection_fileNam)`
+`Stereo3D(data_file=sample_data_file, stereo_angle=5, distance=0, connection_file=connection_fileNam)`
 
 ####**Arguments **
 - `data_file`:	 A tab seperated file with `".tsv"` extension and having five columns (`index`, `X`, `Y`, `Z` and `Color`) of the data. Where, `X`, `Y` and `Z` represent cordinates of a datapoint, `Color` is the label of the given data point and `index` clolumn have the index information of the datapoints.
