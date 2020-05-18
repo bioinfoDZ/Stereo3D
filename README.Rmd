@@ -6,7 +6,9 @@ output:
     highlight: default
   word_document: default
   html_document:
+    
     df_print: paged
+bibliography: references.bib
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -22,7 +24,7 @@ knitr::opts_chunk$set(
 
 
 ## 1. Introduction:
-Visualization in three-dimensional (3D) space is a standard and critical process for examining the complex structure of high dimensional data. Stereo imaging technology can be adopted to enhance 3D representation of any complex data, especially those consisting mostly of points and lines. We illustrate the simple steps that are involved and strongly encourage others to implement it in their own visualization software. To facilitate its application, we have also created a new software that can convert a regular 3D scatterplot or network figure to a stereo image
+Visualization in three-dimensional (3D) space is a standard and critical process for examining the complex structure of high dimensional data. Stereo imaging technology can be adopted to enhance 3D representation of any complex data, especially those consisting mostly of points and lines. We illustrate the simple steps that are involved and strongly encourage others to implement it in their own visualization software. To facilitate its application, we have also created a new software that can convert a regular 3D scatterplot or network figure to a stereo image [@10.1093/bioinformatics/btaa521].
 
 ## 2. Concept:
 When 2D-image of original data and the slightly rotated data are viewed side by side a 3D illusion is created due to two perspectives of the same object.
@@ -108,6 +110,10 @@ and saved as "sample_3D_data_Stereo.pdf", another interactive 3D image also pops
 
 
 !["Output: Sterio Image"](./sample_3D_data_Stereo_net.png)
+
+## 5. Cite
+
+
 
 
 
