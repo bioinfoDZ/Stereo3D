@@ -62,35 +62,44 @@ devtools::install_github("bioinfoDZ/Stereo3D",build_vignettes = FALSE )
 4. Functions
 ------------
 
-### 4.1 Stereo3D
+4.1 Stereo3D
+------------
 
-\#\#\#\#**Description** Create Stereoscopic 3D image of the given data.
+**Description**
 
-\#\#\#\#**Usage**
+Create Stereoscopic 3D image of the given data.
+
+**Usage**
+
 `Stereo3D(data_file=sample_data_file, stereo_angle=5, distance=0, connection_file=connection_fileNam)`
 
-\#\#\#\#**Arguments ** - `data_file`: A tab seperated file with `".tsv"`
-extension and having five columns (`index`, `X`, `Y`, `Z` and `Color`)
-of the data. Where, `X`, `Y` and `Z` represent cordinates of a
-datapoint, `Color` is the label of the given data point and `index`
-clolumn have the index information of the datapoints. - `stereo_angle`:
-angle by which 3D data to be rotated along Y-axis. `Default: 5 degree` -
-`distance`: Distance or gap between the two stereo images. -
-`connection_file`: A tab seperated file (optional). Where, `first` and
-`second` column has indices of start and end points (from `data_file`)
-of a connection respectively.
+**Arguments**
 
-\#\#\#\#**Details** The dataset is rotatated by a given angle along the
-Y-axis and a Stereoscopic 3D scatter plot image is created.
+-   `data_file`: A tab seperated file with `".tsv"` extension and having
+    five columns (`index`, `X`, `Y`, `Z` and `Color`) of the data.
+    Where, `X`, `Y` and `Z` represent cordinates of a datapoint, `Color`
+    is the label of the given data point and `index` clolumn have the
+    index information of the datapoints.
+-   `stereo_angle`: angle by which 3D data to be rotated along Y-axis.
+    `Default: 5 degree`
+-   `distance`: Distance or gap between the two stereo images.
+-   `connection_file`: A tab seperated file (optional). Where, `first`
+    and `second` column has indices of start and end points (from
+    `data_file`) of a connection respectively.
 
-\#\#\#\#**Value**
+**Details**
+
+The dataset is rotatated by a given angle along the Y-axis and a
+Stereoscopic 3D scatter plot image is created.
+
+**Value**
 
 -   Create Stereoscopic 3D plot with `input data filename prefix` and
     `_Stereo.pdf` extention.
 -   Interactive 3D plot for the above image pops up, which can be zoomed
     and rotated by draging the mouse.
 
-\#\#\#\#**Examples**
+**Examples**
 
     > connection_fileName=system.file("extdata", "connection_file.tsv",
     package = "Stereo3D", mustWork = TRUE)
@@ -101,7 +110,9 @@ Y-axis and a Stereoscopic 3D scatter plot image is created.
     connection_file=connection_fileName) # dataset stereo image is created
     and saved as "sample_3D_data_Stereo.pdf", another interactive 3D image also pops-up.
 
-#### Output
+**Output**
+
+![](./index.gif)
 
 ![“Output: Sterio Image”](./sample.png) ![“Output: Sterio
 Image”](./sample_scatter.png)
